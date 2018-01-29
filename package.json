@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:html",
-   	"test:html": "nu-html-checker *.html"
+    "test:html": "nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.23.6",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0"
   }
 }
